@@ -1,5 +1,9 @@
 package com.dkit.oop;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * OOP - CA#2 - Nov 2020
  * Your Name:
@@ -23,6 +27,10 @@ public class App
         System.out.println("Property p1 details:");
         System.out.println(p1.getPropertyID() + " : " + p1.getOwner() + " : " + p1.getPostcode() + " : " + p1.getSellingPrice() + " : " + p1.getArea());
 
+        System.out.println("Added Facility ");
+        p1.addFacility("mains water");
+        p1.addFacility("electricity");
+        System.out.println(p1);
 
         System.out.println("Q2 - tests");
 
